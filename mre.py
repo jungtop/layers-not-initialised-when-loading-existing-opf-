@@ -15,7 +15,10 @@ if __name__ == "__main__":
     pecha_id = "I4AEA9D55"
     opf_path = "./I4AEA9D55"
     layer_types = get_opf_layers(opf_path)
-    update_catalog(pecha_id,layer_types)
+    if layer_types:
+        update_catalog(pecha_id,layer_types)
+    else:
+        print(f"{pecha_id} has no layer")
 
 
     
