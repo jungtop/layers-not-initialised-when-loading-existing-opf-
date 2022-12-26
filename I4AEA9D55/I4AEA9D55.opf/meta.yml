@@ -1,0 +1,16 @@
+id: I4AEA9D55
+default_language: bo
+source: https://www.lotsawahouse.org
+initial_creation_type: input
+imported: 2022-12-25 23:22:48.152909
+last_modified: 2022-12-25 23:22:48.152924
+source_metadata:
+  collection: Jamyang Khyentse Chökyi Lodrö Series
+bases:
+  40BB:
+    title: Advice for Chokling Tulku of Neten Monastery
+    base_file: 40BB.txt
+    order: 1
+copyright:
+  status: Unknown
+  notice: ''
