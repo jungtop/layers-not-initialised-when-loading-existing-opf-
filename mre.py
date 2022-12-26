@@ -7,13 +7,15 @@ def get_opf_layers(opf_path):
     return opf_layers
 
 
-def update_catalog():
+def update_catalog(pceha_id,layer_types):
     pass
 
+
 if __name__ == "__main__":
-    opf_path = "./IC0947659"
+    pecha_id = "I4AEA9D55"
+    opf_path = "./I4AEA9D55"
     layer_types = get_opf_layers(opf_path)
-    update_catalog
+    update_catalog(pecha_id,layer_types)
 
 
     
